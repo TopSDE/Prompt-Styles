@@ -1,4 +1,9 @@
 # ChatML Schema: OpenAI's Structured Prompting Style
+*** IMP ***
+- Best understood as a structured conversation format.
+- You provide the system instructions, earlier conversation, and latest user question as separate messages.
+
+------------------------------
 
 messages = [
     {
@@ -21,3 +26,37 @@ Where are .md files used?
 - AI projects: To store instructions, notes, and documentation for an LLM project.
 
 .md → the file extension, which stands for Markdown.
+
+<!-- ------------------------------ -->
+
+Boilerplate template
+<|im_start|>system
+You are a helpful AI assistant.
+Follow the user's instructions carefully.
+<|im_end|>
+<|im_start|>user
+{your_question}
+<|im_end|>
+<|im_start|>assistant
+
+Example:
+<|im_start|>system
+You are a helpful Python tutor.
+Explain concepts in simple terms.
+<|im_end|>
+<|im_start|>user
+Explain a Python dictionary with an example.
+<|im_end|>
+<|im_start|>assistant
+
+Understanding the tokens
+Token	          Purpose
+<\|im_start\|>	  Starts a message.
+system	          Specifies the role of the message.
+user	          Identifies the user message.
+assistant	      Identifies the AI's message.
+<\|im_end\|>	  Ends a message.
+
+
+One subtle point: <|im_end|> marks the end of a message, but it doesn't necessarily mean the entire conversation is finished. Some formats use a separate end-of-turn marker, such as <|fim_suffix|>, for that purpose.
+Also, when you see system, user, and assistant in the template, those are role names, while the bracketed markers are special tokens in a model's vocabulary.

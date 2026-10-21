@@ -1,3 +1,9 @@
+*** IMP ***
+- Best understood as a simple instruction-tuning template.
+- You prepare thousands of instruction-and-answer examples to fine-tune a model to explain programming concepts.
+
+<!-- ------------------------------ -->
+
 #### With Input
     Below is an instruction that describes a task, 
     paired with an input that provides further context. 
@@ -23,7 +29,7 @@
     ### Response:
     ```
 
----
+<!-- ------------------------------ -->
 
 ### Key Components
 
@@ -31,7 +37,7 @@
 * **Input:** Supplementary data or context needed to complete the instruction (optional; omitted if the task is self-contained).
 * **Response:** The targeted output for training, or the stopping point where the model begins generating its answer during inference.
 
----
+<!-- ------------------------------ -->
 
 ### Why It Matters
 
