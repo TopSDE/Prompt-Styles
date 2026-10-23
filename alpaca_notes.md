@@ -1,5 +1,5 @@
 *** IMP ***
-- Best understood as a simple instruction-tuning template.
+- Best understood as a "simple instruction-tuning template".
 
 <!-- ------------------------------ -->
 

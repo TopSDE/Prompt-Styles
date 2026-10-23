@@ -1,7 +1,6 @@
 # ChatML Schema: OpenAI's Structured Prompting Style
 *** IMP ***
-- Best understood as a structured conversation format.
-
+- Best understood as a "structured conversation format".
 
 <!-- ------------------------------ -->
 

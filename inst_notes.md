@@ -1,7 +1,7 @@
 The format you're asking about is commonly associated with Meta's Llama 2 Chat models and some Mistral-family instruction-tuned models. The exact format depends on the model checkpoint.
 *** IMP ***
-- [INST] Format is Best understood as a model-specific instruction format.
-- ([INST]) is a prompt format used by certain instruction-tuned models.
+- [INST] Format is Best understood as a "model-specific instruction format". Common in Llama 2 Chat and Mistral Instruct formats.
+- [INST] is a prompt format used by certain instruction-tuned models.
 
 <!-- ------------------------------ -->
 
