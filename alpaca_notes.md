@@ -1,6 +1,5 @@
 *** IMP ***
 - Best understood as a simple instruction-tuning template.
-- You prepare thousands of instruction-and-answer examples to fine-tune a model to explain programming concepts.
 
 <!-- ------------------------------ -->
 
@@ -8,6 +7,9 @@
     Below is an instruction that describes a task, 
     paired with an input that provides further context. 
     Write a response that appropriately completes the request.
+
+    *** IMP ***
+    The ### Input: section is optional. If your instruction already contains everything the model needs, you can omit that section.
 
     ### Instruction:
     {instruction text}

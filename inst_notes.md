@@ -1,7 +1,6 @@
 The format you're asking about is commonly associated with Meta's Llama 2 Chat models and some Mistral-family instruction-tuned models. The exact format depends on the model checkpoint.
 *** IMP ***
 - [INST] Format is Best understood as a model-specific instruction format.
-- You format the user's request using the instruction markers expected by a Llama 2 Chat or Mistral Instruct model.
 
 <!-- ------------------------------ -->
 
